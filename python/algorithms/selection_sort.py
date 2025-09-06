@@ -29,6 +29,7 @@ def selection_sort(f_arr: List[int]) -> List[int]:
 
     return l_arr
 
+
 if __name__ == "__main__":
     arr = [1, 2, -12, 3, 4, 100, -23]
 
@@ -39,7 +40,6 @@ if __name__ == "__main__":
     new_arr = selection_sort(arr)
     print(new_arr)
     print(arr)
-
 
 
 

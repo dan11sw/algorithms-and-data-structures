@@ -33,5 +33,3 @@ if __name__ == "__main__":
 
     if index is not None:
         print(test_list[index])
-
-
