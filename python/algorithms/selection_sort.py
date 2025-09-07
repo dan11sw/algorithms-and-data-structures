@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-
+# O(n)
 def find_smallest(f_arr: List[int]) -> Optional[int]:
     if len(f_arr) == 0:
         return None
@@ -17,6 +17,7 @@ def find_smallest(f_arr: List[int]) -> Optional[int]:
 
     return smallest_index
 
+# O(n^2)
 def selection_sort(f_arr: List[int]) -> List[int]:
     if len(f_arr) == 0:
         return f_arr

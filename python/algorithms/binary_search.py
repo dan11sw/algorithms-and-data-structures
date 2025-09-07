@@ -1,5 +1,6 @@
 from typing import List, Optional
 
+# O(log(n))
 def binary_search(arr: List[int], item: int) -> Optional[int]:
     if not isinstance(arr, list):
         print("For binary search need list")
